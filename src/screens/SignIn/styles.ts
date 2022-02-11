@@ -59,14 +59,14 @@ export const SignInButton = styled(RectButton)`
   align-items: center;
   flex-direction: row;
 
-  border-radius: 5px;
+  border-radius: 10px;
 `;
 
 export const SignInButtonIcon = styled.View`
   padding: 18px 16px;
   background-color: ${props => props.theme.colors.purple_darker};
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 `;
 
 export const SignInButtonText = styled.Text`
